@@ -1,0 +1,28 @@
+# Virtual environment files
+/Include/
+/Lib/
+/Scripts/
+/pyvenv.cfg
+
+# Common venv folder names
+/venv/
+/.venv/
+/env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+
+# Logs
+*.log
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
