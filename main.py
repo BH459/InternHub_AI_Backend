@@ -24,3 +24,10 @@ def home():
     return {
         "message": "FastAPI Server Running"
     }
+
+@app.get("/health", tags=["Health"])
+def health():
+    return {
+        "status": "healthy",
+        "message": "FastAPI Server Running"
+    }
